@@ -1,0 +1,32 @@
+{
+  "name": "flight-booking-backend",
+  "version": "1.0.0",
+  "description": "CIGS Tech Innovations Internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishabisht/Flight-Booking-Backend.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "ExpressJS"
+  ],
+  "author": "Tanisha Bisht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanishabisht/Flight-Booking-Backend/issues"
+  },
+  "homepage": "https://github.com/tanishabisht/Flight-Booking-Backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
