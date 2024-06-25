@@ -1,17 +1,24 @@
 # Flight Booking Backend
 
-## How to run it locally
+This repository contains the backend for a flight booking application. The frontend can be found [here](https://github.com/tanishabisht/Fullstack-FlightBookingFrontend).
 
-Firstly make sure your have the following installed in your system
+## Intructions to run the application
 
-1. Firstly make sure your have the following installed in your system
-   - node version: v16.13.2
-   - npm version: 8.19.2
-2. Clone the repository and Open in your suitable development environment (e.g. VS Code)
-3. Open the terminal of the editor and type:
-   - `npm install` to install all the node packages and dependancies from [`package.json`](/package.json)
-   - `npm start` or `node app.js` to run the server
+Ensure you have the following installed on your system:
+- Node version: v16.20.2
+- `nvm install v16.20.2`
+- `nvm use v16.20.2`
 
-## Tech Stacks Used
+Steps to run:
+1. Clone the repository and open it in your preferred development environment (e.g., VS Code).
+2. Create a file called `.env`, copy the content from `deploy.env`, and replace with the correct values for the variables.
+3. Open the terminal in your editor and run:
+   - `npm install` to install all the node packages and dependencies from [`package.json`](/package.json).
+   - `node app.js` to start the server.
 
+By following these steps, you can run the Flight Booking backend locally and integrate it with the frontend for a complete flight booking application.
+
+## Technologies Used
 `Node JS` `MongoDB` `ExpressJS`
+
+
